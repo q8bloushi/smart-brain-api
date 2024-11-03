@@ -12,10 +12,10 @@ const image = require('./controllers/image');
 const db = knex({
 	client: 'pg',
 	connection: {
-		host: '127.0.0.1',
-		user: 'postgres',
-		password: '123',
-		database: 'smart-brain'
+		host: 'dpg-csjnrthu0jms73b3l570-a',
+		user: 'smart_brain_api_vitz_user',
+		password: 'gsF0Kj2h395EfkrHYSoHaHuP3P4P3mm1',
+		database: 'smart_brain_api_vitz'
 	}
 });
 
@@ -30,6 +30,6 @@ app.get('/profile/:id', (req, res) => { profile.handleProfileGet(req, res, db) }
 app.put('/image', (req, res) => {image.handleImage(req, res, db)})
 app.post('/imageurl', (req, res) => {image.handleApiCall(req, res, db)})
 
-app.listen(3000, () => {
-	console.log('app is running on port 3000');
+app.listen(5432, () => {
+	console.log('app is running on port 5432');
 })
