@@ -16,7 +16,7 @@ const db = knex({
 		user: 'smart_brain_api_vitz_user',
 		password: 'gsF0Kj2h395EfkrHYSoHaHuP3P4P3mm1',
 		database: 'smart_brain_api_vitz',
-		port: '4000'
+		port: '5432'
 	}
 });
 
@@ -31,6 +31,6 @@ app.get('/profile/:id', (req, res) => { profile.handleProfileGet(req, res, db) }
 app.put('/image', (req, res) => {image.handleImage(req, res, db)})
 app.post('/imageurl', (req, res) => {image.handleApiCall(req, res, db)})
 
-app.listen(4000, () => {
-	console.log('app is running on port 4000');
+app.listen(5432, () => {
+	console.log('app is running on port 5432');
 })
