@@ -15,7 +15,8 @@ const db = knex({
 		host: 'dpg-csjnrthu0jms73b3l570-a',
 		user: 'smart_brain_api_vitz_user',
 		password: 'gsF0Kj2h395EfkrHYSoHaHuP3P4P3mm1',
-		database: 'smart_brain_api_vitz'
+		database: 'smart_brain_api_vitz',
+		port: '5432'
 	}
 });
 
