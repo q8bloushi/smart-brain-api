@@ -59,3 +59,9 @@ Welcome to the Smart Brain API! This API is designed to provide intelligent func
    ```bash
    npm start
    ```
+## Usage
+Once the server is running, you can access the API endpoints listed below. Remember to include the Authorization header with your JWT token for any protected routes
+
+## API Endpoints
+### User Registration
+. POST [/register]
