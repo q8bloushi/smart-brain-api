@@ -46,7 +46,7 @@ Welcome to the Smart Brain API! This API is designed to provide intelligent func
    npm install
    ```
 4. **Set up environment variables:**
-   configurat the following variables in your [server.js]
+   configurat the following variables in your ```server.js```
 
    ```bash
 		host: 'YOUR_HOST_NAME',
@@ -64,4 +64,4 @@ Once the server is running, you can access the API endpoints listed below. Remem
 
 ## API Endpoints
 ### User Registration
-. POST [/register]
+. POST ```/register```
