@@ -9,8 +9,6 @@ Welcome to the Smart Brain API! This API is designed to provide intelligent func
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -65,3 +63,8 @@ Once the server is running, you can access the API endpoints listed below. Remem
 ## API Endpoints
 ### User Registration
 . POST ```/register```
+  . Request body: ```{ "email": "user@example.com", "password": "yourpassword", "name": "name"}```
+
+### User Login
+. POST ```/signin```
+  . Request body: ```{ "email": "user@example.com", "password": "yourpassword" }```
