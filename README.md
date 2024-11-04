@@ -62,9 +62,9 @@ Once the server is running, you can access the API endpoints listed below. Remem
 
 ## API Endpoints
 ### User Registration
-. POST ```/register```
-  . Request body: ```{ "email": "user@example.com", "password": "yourpassword", "name": "name"}```
+- POST ```/register```
+  - Request body: ```{ "email": "user@example.com", "password": "yourpassword", "name": "name"}```
 
 ### User Login
-. POST ```/signin```
-  . Request body: ```{ "email": "user@example.com", "password": "yourpassword" }```
+- POST ```/signin```
+  - Request body: ```{ "email": "user@example.com", "password": "yourpassword" }```
