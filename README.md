@@ -40,3 +40,22 @@ Welcome to the Smart Brain API! This API is designed to provide intelligent func
    ```bash
    cd smart-brain-api
    ```
+3. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+4. **Set up environment variables:**
+   configurat the following variables in your [server.js]
+
+   ```bash
+		host: 'YOUR_HOST_NAME',
+		user: 'YOUR_USERNAME',
+		password: 'DB_PASSWORD',
+		database: 'DB_NAME',
+		port: 'YOUR_PORT'
+   ```
+5. **Start the server:**
+   ```bash
+   npm start
+   ```
