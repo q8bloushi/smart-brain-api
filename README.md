@@ -71,4 +71,4 @@ Once the server is running, you can access the API endpoints listed below. Remem
 
 #### example of POST /signin:
 - using postman:
-![](https://i.ibb.co/yFXtMcS/signin.png)
+![](https://i.postimg.cc/xCMYmKZk/signin.png)
