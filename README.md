@@ -68,3 +68,7 @@ Once the server is running, you can access the API endpoints listed below. Remem
 ### User Login
 - POST ```/signin```
   - Request body: ```{ "email": "user@example.com", "password": "yourpassword" }```
+
+#### example of POST /signin:
+- using postman:
+![](https://ibb.co/1GL1pt6)
